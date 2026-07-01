@@ -660,6 +660,110 @@ footer {
   text-align: center;
 }
 
+/* === Legal Pages === */
+.legal-page {
+  padding: 120px 40px 80px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.legal-breadcrumb {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+.legal-breadcrumb a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.legal-breadcrumb a:hover { color: var(--red); }
+
+.legal-page h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: clamp(32px, 4vw, 48px);
+  margin-bottom: 8px;
+}
+
+.legal-meta {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.legal-wrap h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 40px 0 12px;
+  color: var(--text);
+}
+
+.legal-wrap h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  margin: 24px 0 8px;
+  color: var(--text);
+}
+
+.legal-wrap p {
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+
+.legal-wrap ul {
+  margin: 0 0 16px 20px;
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.legal-wrap ul li {
+  margin-bottom: 4px;
+}
+
+.legal-wrap a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+.legal-wrap a:hover { text-decoration: underline; }
+
+.legal-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 24px;
+  font-size: 14px;
+}
+
+.legal-table th,
+.legal-table td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.legal-table th {
+  font-weight: 600;
+  color: var(--text);
+  background: var(--gray);
+}
+
+.legal-table td {
+  color: var(--muted);
+}
+
+.nav-logo-link {
+  text-decoration: none;
+}
+
 /* === Mobile: < 768px === */
 @media (max-width: 767px) {
   nav { padding: 12px 20px; }
@@ -718,6 +822,8 @@ footer {
   .footer-nav { flex-wrap: wrap; justify-content: center; }
 
   .dark-section { padding: 60px 24px; }
+
+  .legal-page { padding: 100px 24px 60px; }
 }
 
 /* === Tablet: 768px–1023px === */
